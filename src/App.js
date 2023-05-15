@@ -5,6 +5,7 @@ import { About } from './pages/About'
 import { Contacts } from './pages/Contacts'
 import { Home } from './pages/Home'
 import { NotFound } from './pages/NotFound'
+import { Category } from './pages/Category'
 
 function App() {
 return (
@@ -15,7 +16,7 @@ return (
         <Routes>
           <Route  path='/' Component={Home} />
           <Route  path='about' Component={About} />
-          <Route  path='contacts' Component={Contacts} />
+          <Route  path='category/:name' Component={Category} />
           <Route  Component={NotFound}/>
         </Routes>
       </main>

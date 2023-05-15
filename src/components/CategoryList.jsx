@@ -7,7 +7,7 @@ function CategoryList({ catalog = [] }) {
         <CategoryItem key={el.idCategory} {...el} />
       ))}
     </div>
-  )   
+  )
 }
 
 export { CategoryList }
