@@ -10,7 +10,7 @@ function Category() {
   const  goBack  = useNavigate()
 
   const click = () => {
-    goBack('')
+    goBack(-1)
   }
 
   useEffect(() => {
